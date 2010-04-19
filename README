@@ -1,0 +1,7 @@
+
+Media Shower is the result of @theprojectabot and @kestralsoftware working together at the iPadDevCamp 2010 to create a little project that allows the user on the iPad to watch a series of videos in a video wall fashion on their iPad then click one to go full screen.
+
+MPMoviePlayerController does not allow mutliple controllers to each be playing at the same time... so we just set up a NSTimer to grab frames from each of the controllers and present them in separate UIImage views...
+
+Its a hack and its been slapped together but hopefully someone gets some use of it.
+
